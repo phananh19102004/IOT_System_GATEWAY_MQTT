@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Phan Gia 1";
-const char* password = "0913513339";
+const char* ssid = "*****";
+const char* password = "******";
 
-const char* mqtt_server = "192.168.0.102";  // hoặc IP local broker
+const char* mqtt_server = "********";  // hoặc IP local broker
 const int mqtt_port = 1883;
 const char* mqtt_topic = "esp32/data";
 
