@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
-const char* ssid = "Phan Gia 1";
-const char* password = "0913513339";
-const char* host = "192.168.0.103"; // IP của ESP32 Server
+const char* ssid = "******";
+const char* password = "*****";
+const char* host = "******"; // IP của ESP32 Server
 
 void setup() {
   Serial.begin(115200);
