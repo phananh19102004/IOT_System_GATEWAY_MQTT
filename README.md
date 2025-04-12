@@ -24,11 +24,11 @@ sudo systemctl status ssh
 Step to install MQTT correctly on raspberry pi :
 - Update your system :
 sudo apt update
-- Install Mosquitto broker and clients
+- Install Mosquitto broker and clients :
 sudo apt install -y mosquitto mosquitto-clients
-- Enable Mosquitto to start on boot
+- Enable Mosquitto to start on boot :
 sudo systemctl enable mosquitto
-- sudo systemctl status mosquitto (You should see something like active (running))
+- Check status : sudo systemctl status mosquitto (You should see something like active (running))
 
 
 
