@@ -11,7 +11,7 @@ SOME COMMON MISTAKE YOU MAY HAVE WHEN YOU DEPLOY THE SYSTEM
 -----------------------------------------------------------------------------------------------------------
 * With Raspberry PI 4 :
 
-* ssh: connect to host raspberrypi port 22: Connection timed out ( You can't connect SSH from your computer to raspberrypi 4 . Even
+ssh: connect to host raspberrypi port 22: Connection timed out ( You can't connect SSH from your computer to raspberrypi 4 . Even
 though it's working. You still can connect through VNC viewer )
 
 - Open terminal in raspberry pi
@@ -21,7 +21,7 @@ sudo systemctl start ssh
 - Check the ssh status :
 sudo systemctl status ssh
 
-* Step to install MQTT correctly on raspberry pi :
+Step to install MQTT correctly on raspberry pi :
 - Update your system :
 sudo apt update
 - Install Mosquitto broker and clients
