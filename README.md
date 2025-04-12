@@ -16,7 +16,7 @@ though it's working. You still can connect through VNC viewer )
 
 - Open terminal in raspberry pi
 - Type this command to open SSH :
-sudo systemctl enable ssh
+sudo systemctl enable ssh;
 sudo systemctl start ssh
 - Check the ssh status :
 sudo systemctl status ssh
